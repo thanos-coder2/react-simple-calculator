@@ -51,7 +51,7 @@ If the expression is invalid, the calculator shows an error message.
 
 Installation and Setup
 Clone the repository
-git clone https://github.com/yourusername/react-calculator.git
+git clone https://github.com/thanos-coder2/react-simple-calculator.git
 Navigate into the project folder
 cd react-calculator
 Install dependencies
