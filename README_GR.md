@@ -33,7 +33,7 @@ const [input, setInput] = useState("");
 
 Εγκατάσταση
 Κατέβασε το repository
-git clone https://github.com/yourusername/react-calculator.git
+git clone https://github.com/thanos-coder2/react-simple-calculator.git
 Μπες στον φάκελο
 cd react-calculator
 Εγκατέστησε τα dependencies
