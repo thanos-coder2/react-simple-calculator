@@ -1,4 +1,4 @@
-React Calculator
+React Simple Calculator
 ![Calculator Screenshot](assets/calculator-screen1.png)
 ![Calculator Screenshot2](assets/calculator-screen2.png)
 English | [Ελληνικά](README_GR.md)
