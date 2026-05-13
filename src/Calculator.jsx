@@ -3,7 +3,7 @@ import "./Calculator.css";
 
 const Calculator = () => {
   const [input, setInput] = useState("");
-
+ 
   const handleClick = (value) => {
     setInput((prev) => prev + value);
   };
