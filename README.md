@@ -72,7 +72,6 @@ Add scientific calculator functions
 Improve mobile responsiveness
 Add animations or UI enhancements
 
----
 
 
 
