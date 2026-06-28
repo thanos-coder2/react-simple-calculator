@@ -71,3 +71,147 @@ Add keyboard support
 Add scientific calculator functions
 Improve mobile responsiveness
 Add animations or UI enhancements
+
+# React Simple Calculator
+
+![Calculator Screenshot](assets/calculator-screen1.png)
+
+![Calculator Screenshot2](assets/calculator-screen2.png)
+
+[English](README.md) | Ελληνικά
+
+---
+
+## Περιγραφή Project GR
+
+Πρόκειται για μια απλή εφαρμογή **Αριθμομηχανής**, η οποία αναπτύχθηκε με **React**, χρησιμοποιώντας **Functional Components** και **React Hooks**.
+
+Η εφαρμογή επιτρέπει στον χρήστη να πραγματοποιεί βασικές αριθμητικές πράξεις, όπως πρόσθεση, αφαίρεση, πολλαπλασιασμό και διαίρεση, μέσα από ένα καθαρό και responsive περιβάλλον χρήσης.
+
+---
+
+## Χαρακτηριστικά
+
+* Βασικές αριθμητικές πράξεις (+ − × ÷)
+* Λειτουργία καθαρισμού της εισόδου (Clear)
+* Responsive διάταξη με χρήση CSS Grid
+* Ανάπτυξη με React Functional Components
+* Διαχείριση κατάστασης μέσω του React Hook `useState`
+* Εμφάνιση μηνύματος σφάλματος σε μη έγκυρες μαθηματικές εκφράσεις
+
+---
+
+## Τεχνολογίες
+
+* React
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* React Hooks
+
+---
+
+## Δομή Project
+
+```text
+project1-calculator
+│
+├── src
+│   ├── Calculator.js
+│   ├── Calculator.css
+│   ├── App.js
+│   └── index.js
+│
+├── public
+│
+└── package.json
+```
+
+---
+
+## Τρόπος Λειτουργίας
+
+Η αριθμομηχανή αποθηκεύει την τρέχουσα έκφραση σε μία μεταβλητή κατάστασης (state).
+
+```javascript
+const [input, setInput] = useState("");
+```
+
+Κάθε φορά που ο χρήστης πατάει ένα κουμπί, η αντίστοιχη τιμή προστίθεται στην ήδη υπάρχουσα έκφραση.
+
+```javascript
+const handleClick = (value) => {
+  setInput((prev) => prev + value);
+};
+```
+
+Όταν πατηθεί το κουμπί **=**, η μαθηματική έκφραση υπολογίζεται και εμφανίζεται το αποτέλεσμα.
+
+```javascript
+setInput(eval(input).toString());
+```
+
+Εάν η έκφραση δεν είναι έγκυρη, εμφανίζεται κατάλληλο μήνυμα σφάλματος αντί να τερματιστεί η εφαρμογή.
+
+---
+
+## Εγκατάσταση και Εκτέλεση
+
+### 1. Κλωνοποίηση του repository
+
+```bash
+git clone https://github.com/thanos-coder2/react-simple-calculator.git
+```
+
+### 2. Μεταφορά στον φάκελο του project
+
+```bash
+cd react-calculator
+```
+
+### 3. Εγκατάσταση των απαραίτητων πακέτων
+
+```bash
+npm install
+```
+
+### 4. Εκκίνηση του development server
+
+```bash
+npm start
+```
+
+Η εφαρμογή θα είναι διαθέσιμη στη διεύθυνση:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Μελλοντικές Βελτιώσεις
+
+Πιθανές επεκτάσεις του project:
+
+* Αντικατάσταση της `eval()` με ασφαλέστερο parser μαθηματικών εκφράσεων
+* Υποστήριξη πληκτρολογίου
+* Προσθήκη λειτουργιών επιστημονικής αριθμομηχανής
+* Περαιτέρω βελτίωση του responsive σχεδιασμού για κινητές συσκευές
+* Προσθήκη animations και επιπλέον βελτιώσεων στο περιβάλλον χρήσης (UI)
+
+---
+
+## Τι Έμαθα
+
+Μέσα από το συγκεκριμένο project εξασκήθηκα σε:
+
+* React Components
+* React Hooks (`useState`)
+* State Management
+* Event Handling
+* JavaScript ES6
+* Responsive Design
+* CSS Grid Layout
+* Διαχείριση σφαλμάτων (Error Handling)
+* Δομή και οργάνωση εφαρμογών React
+
