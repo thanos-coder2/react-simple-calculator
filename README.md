@@ -72,14 +72,6 @@ Add scientific calculator functions
 Improve mobile responsiveness
 Add animations or UI enhancements
 
-# React Simple Calculator
-
-![Calculator Screenshot](assets/calculator-screen1.png)
-
-![Calculator Screenshot2](assets/calculator-screen2.png)
-
-[English](README.md) | Ελληνικά
-
 ---
 
 
